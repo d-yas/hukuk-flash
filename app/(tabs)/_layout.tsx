@@ -5,6 +5,8 @@ const _layout = () => {
   return (
     <Tabs>
         <Tabs.Screen name="index" options={{ headerShown: false }} />
+        <Tabs.Screen name="saved" options={{ headerShown: false }} />
+        <Tabs.Screen name="profile" options={{ headerShown: false }} />
     </Tabs>
   )
 }
